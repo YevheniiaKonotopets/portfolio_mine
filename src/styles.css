@@ -15,8 +15,22 @@ h6 {
   font-weight: bold;
 }
 
+.backgroung {
+  background-color: var(--secondary-color);
+}
+
 .centered {
   align-self: center;
+}
+
+.img-centered {
+  position: relative;
+  top: 50%;
+}
+
+.left-align {
+  position: relative;
+  float: left;
 }
 
 .hero {
@@ -56,6 +70,16 @@ h6 {
   margin-top: 40px;
 }
 
+.content .btn-contact-me {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin-top: 40px;
+}
+
 .content {
   padding: 20px 100px;
 }
@@ -81,6 +105,17 @@ h6 {
   margin-top: 55px;
 }
 
+.footer {
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.content .footer p {
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
 .content .btn-learn-more {
   border-radius: 4px;
   border: 1px solid var(--branding-color);
@@ -91,7 +126,38 @@ h6 {
   margin-top: 40px;
 }
 
-@media (max-width: 900px) {
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+footer {
+  font-size: 24px;
+  line-height: 80px;
+  padding: 80px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--branding-color);
+}
+
+@media (max-width: 1200px) {
   .content {
     text-align: center;
   }
@@ -105,6 +171,7 @@ h6 {
   .content h2 {
     font-size: 45px;
   }
+
   .hero p {
     font-size: 25px;
   }
