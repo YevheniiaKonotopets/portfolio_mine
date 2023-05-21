@@ -15,6 +15,10 @@ h6 {
   font-weight: bold;
 }
 
+.centered {
+  align-self: center;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -50,4 +54,61 @@ h6 {
   line-height: 27px;
   padding: 15px 30px;
   margin-top: 40px;
+}
+
+.content {
+  padding: 20px 100px;
+}
+
+.content h2 {
+  font-size: 64px;
+}
+
+.content .enter-sentence {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 16px;
+  color: #272142;
+  margin-top: 125px;
+  margin-bottom: 100px;
+}
+
+.content p {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 16px;
+  color: #272142;
+  margin-top: 55px;
+}
+
+.content .btn-learn-more {
+  border-radius: 4px;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .content {
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 44px;
+    line-height: 70px;
+  }
+  .hero h2 {
+    font-size: 25px;
+  }
+  .content h2 {
+    font-size: 45px;
+  }
+  .hero p {
+    font-size: 25px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
