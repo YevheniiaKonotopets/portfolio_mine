@@ -157,9 +157,68 @@ footer a {
   color: var(--branding-color);
 }
 
+.email-link {
+  display: flex;
+  justify-content: center;
+}
+
+.info-about {
+  padding-top: 160px;
+}
+
+.info-about h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+
+.info-about h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.info-about .btn-view-projects {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin-top: 40px;
+}
+
+.info-about img {
+  width: 560px;
+  height: 560px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.info-about .footer {
+  margin-top: 180px;
+}
+
+.info-about .footer h2 {
+  display: block;
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 76.8px;
+}
+
+.info-about .btn-learn-more {
+  border-radius: 4px;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin-top: 40px;
+}
+
 @media (max-width: 1200px) {
   .content {
     text-align: center;
+    padding: 20px;
   }
   .hero h1 {
     font-size: 44px;
@@ -177,5 +236,27 @@ footer a {
   }
   .hero {
     padding: 80px 20px;
+  }
+  footer {
+    text-align: center;
+    font-size: 18px;
+  }
+  .info-about {
+    padding: 80px 20px 20px 20px;
+    text-align: center;
+  }
+  .info-about h1 {
+    font-size: 44px;
+    line-height: 70px;
+  }
+  .info-about h2 {
+    font-size: 25px;
+  }
+  .info-about img {
+    width: 300px;
+    height: 300px;
+  }
+  .info-about .footer {
+    margin-top: 10px;
   }
 }
