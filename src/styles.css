@@ -266,6 +266,18 @@ footer a {
   margin-top: 16px;
 }
 
+footer .icons a {
+  text-decoration: none;
+}
+
+footer .icons i {
+  text-decoration: none;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 8px;
+  border-radius: 100%;
+}
+
 @media (max-width: 1200px) {
   .content {
     text-align: center;
